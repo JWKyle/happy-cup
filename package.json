@@ -22,7 +22,8 @@
     "node": ">=6"
   },
   "dependencies": {
-    "request": "^2.83.0"
+    "request": "^2.83.0",
+    "sinon": "^4.4.2"
   },
   "bugs": {
     "url": "https://github.com/JWKyle/happy-cup/issues"
