@@ -1,0 +1,31 @@
+{
+  "name": "happy-cup",
+  "version": "1.0.0",
+  "description": "A small program to assist in making great pourover coffee",
+  "scripts": {
+    "start": "browser-sync start --server ./src --files ./src",
+    "test": "mocha -t 20000 test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JWKyle/happy-cup.git"
+  },
+  "author": "Jim Kyle",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "chai": "^3.5.0",
+    "jsdom": "^9.4.1",
+    "mocha": "^3.5.3"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "request": "^2.83.0"
+  },
+  "bugs": {
+    "url": "https://github.com/JWKyle/happy-cup/issues"
+  },
+  "homepage": "https://github.com/JWKyle/happy-cup#readme"
+}
