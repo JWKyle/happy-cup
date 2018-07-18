@@ -13,17 +13,17 @@
   "author": "Jim Kyle",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.14.0",
+    "browser-sync": "^2.24.5",
     "chai": "^3.5.0",
     "jsdom": "^9.4.1",
-    "mocha": "^3.5.3"
+    "mocha": "^5.2.0"
   },
   "engines": {
     "node": ">=6"
   },
   "dependencies": {
-    "request": "^2.83.0",
-    "sinon": "^4.4.2"
+    "request": "^2.87.0",
+    "sinon": "^4.5.0"
   },
   "bugs": {
     "url": "https://github.com/JWKyle/happy-cup/issues"
